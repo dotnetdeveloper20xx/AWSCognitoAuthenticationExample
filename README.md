@@ -4,3 +4,6 @@ Amazon Cognito is a robust scalable authentication solution that integrates seam
 Enable social logins so users can log in with their favourite social platform like Google, Facebook, Amazon, or any open ID provider. Every user has data associated with their profile, like profile pictures, and use Amazon Cognito Sync to synchronize user data between different devices.
 How to use Amazon Cognito Federated Identities to provide users with access to AWS services through social logins and Amazon Cognito logins. Implement user access to applications, enable users to access AWS services via external providers, and provide seamless user experience by syncing user data between multiple devices.
 
+To start the development environment, run `npm install` and `npm run dev` 
+
+To deploy the production app to heroku, run `heroku create [app-name]`, then `git push heroku master`, then `heroku open` 
